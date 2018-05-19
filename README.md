@@ -107,8 +107,8 @@ python exp/cifar10_autoencoder.py
 ![cifar10 autoencoder](figures/cifar10.jpg)
 
 
-For citation purpose, cite:
-J. Feng and Z.-H. Zhou. [AutoEncoder by Forest](http://lamda.nju.edu.cn/fengj/paper/aaai18eForest.pdf). In: Proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI'18), New Orleans, Lousiana, USA, 2018. 
+**For citation purpose, cite:\
+J. Feng and Z.-H. Zhou. [AutoEncoder by Forest](http://lamda.nju.edu.cn/fengj/paper/aaai18eForest.pdf). In: Proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI'18), New Orleans, Lousiana, USA, 2018. **
 
 Happy Hacking.
 
