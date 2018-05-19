@@ -74,7 +74,7 @@ X_decode = model.decode(X_encode)
     - shape = [n_samples, n_trees]
     - X_encode[i, j] represent the leaf index for the j'th tree for the i'th sample
 
-## Detail API of model.decode
+## API details of model.decode
 ### Parameters
 * X_encode [ndarray]
     - shape = [n_samples, n_trees]
@@ -107,4 +107,8 @@ python exp/cifar10_autoencoder.py
 ![cifar10 autoencoder](figures/cifar10.jpg)
 
 
+For citation purpose, cite:
+J. Feng and Z.-H. Zhou. [AutoEncoder by Forest](http://lamda.nju.edu.cn/fengj/paper/aaai18eForest.pdf). In: Proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI'18), New Orleans, Lousiana, USA, 2018. 
+
 Happy Hacking.
+
