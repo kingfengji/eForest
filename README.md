@@ -54,6 +54,7 @@ Current supported model in sklearn includes:
 
 ## Simple Encode/Decode Demo
 ```
+from sklearn.ensemble import RandomForestClassifier
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 x_train = x_train.reshape((x_train.shape[0], -1))
 x_test = x_test.reshape((x_test.shape[0], -1))
