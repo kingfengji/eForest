@@ -10,7 +10,7 @@ Description: A python implementation of encoderForest proposed in [1].
 A demo implementation of eForest library as well as some demo client scripts to demostrate how to use the code.
 The implementation is flexible enough for modifying the model or fit your own datasets.
 
-**Reference: [1] J. Feng and Z.-H. Zhou. [AutoEncoder by Forest](http://lamda.nju.edu.cn/fengj/paper/aaai18eForest.pdf). In: Proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI'18), New Orleans, Lousiana, USA, 2018].**
+**Reference: [1] J. Feng and Z.-H. Zhou. [AutoEncoder by Forest](http://lamda.nju.edu.cn/fengj/paper/aaai18eForest.pdf). In: Proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI'18), New Orleans, Lousiana, USA, 2018.**
 
 ATTN: This package was developed and maintained by Mr.Ji Feng(http://lamda.nju.edu.cn/fengj/) .For any problem concerning the codes, please feel free to contact Mr.Feng.（fengj@lamda.nju.edu.cn) or open some issues here.
 
