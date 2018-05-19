@@ -62,7 +62,7 @@ x_test = x_test.reshape((x_test.shape[0], -1))
 model = RandomForestClassifier(n_estimators=1000, max_depth=None, n_jobs=-1)
 model.fit(x_train, y_train)
 X_encode = model.encode(x_test)
-X_decode = model.decode(x_test)
+X_decode = model.decode(X_encode)
 ```
 
 ## Detail API of model.encode
