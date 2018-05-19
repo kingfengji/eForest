@@ -17,7 +17,7 @@ ATTN: This package was developed and maintained by Mr.Ji Feng(http://lamda.nju.e
 
 
 # Installation
-## First step: Create virtual envrionment
+## Step 1: Create virtual envrionment
 The eforest is based on a custom version of scikit-learn, in which we add some extra methods in the origin forest models.\
 To avoid confiction with other usage of the official version of scikit-learn, you need to create a seperate envirionment.\
 If you are using anaconda ( it's a must), you will need to run the following command.
@@ -26,14 +26,14 @@ conda create -n eforest python=3.5 anaconda
 source activate eforest
 pip uninstall scikit-learn
 ```
-## Second step: checkout the scikit-learn codes
+## Step 2: checkout the scikit-learn codes
 The latest released version of sklearn until the code released is v0.19.1, you need to clone the code and check-out that version. That is, run the following command (you cannot install sklearn via pip/conda):
 ```
 git clone https://github.com/scikit-learn/scikit-learn.git
 cd scikit-learn
 git checkout tags/0.19.1 -b 0.19.1
 ```
-## Third step: Merge eforest code (this repo) into scikit-learn and install it.
+## Step 3: Merge eforest code (this repo) into scikit-learn and install it.
 Exit the folder and go to the folder containing the package, run the following command.
 ```
 sh copy_codes.sh
@@ -105,3 +105,6 @@ Run the following scripts, It will display the autoencoding result for CIFAR10 d
 python exp/cifar10_autoencoder.py
 ```
 ![cifar10 autoencoder](figures/cifar10.jpg)
+
+
+Happy Hacking.
