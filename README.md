@@ -65,7 +65,7 @@ X_encode = model.encode(x_test)
 X_decode = model.decode(X_encode)
 ```
 
-## Detail API of model.encode
+## API details of model.encode
 ### Parameters
 * X [ndarray]
     - shape = [n_samples, n_features]
